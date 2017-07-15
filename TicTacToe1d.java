@@ -1,14 +1,5 @@
 import java.util.Scanner;
-/**
- * COMP1006 Assignment 1 Problem 1 Name: Haoyi Zhao ID:101056211 Due:July 11, 2016
- * Program plays a game of tictactoe, with player always going first. Player first selects symbol,
- * and then makes a move, followed by the computer making a move. The board is displayed after each
- * move. Whether or not there is a winner is also checked after every move. If the game is over,
- * player will be prompted to input whether or not they will play again. Compile and run by using the 
- * main method provided in the program.
- * @author HowieZhao
- *
- */
+
 public class TicTacToe {
 	//character array which stores the value of each coordinate of the tictactoe board
 	static char[] board = new char[9];
